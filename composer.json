@@ -1,0 +1,11 @@
+{
+  "name": "nginx-dev",
+  "description": "testing nginx docker-compose",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:curtcook/orchards-grove-api.git",
+      "no-api": true
+    }
+  ]
+}

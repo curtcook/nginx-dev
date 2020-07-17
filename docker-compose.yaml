@@ -1,0 +1,15 @@
+version: "3"
+services:
+  site1:
+    container_name: site1
+    hostname: site1
+    image: docker.pkg.github.com/curtcook/site1/site1:v1.0.0
+    ports:
+      - 80:80
+  site2:
+    container_name: site2
+    hostname: site2
+    image: docker.pkg.github.com/curtcook/site2/site2:v1.0.0
+    ports:
+      - 8082:8082
+
